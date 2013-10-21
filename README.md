@@ -21,3 +21,6 @@ com.moves.api.test.token
 com.moves.api.test.secret
 
 And then you can run the MovesUserClientIT integration test.
+=======
+In the initial version, you need to load the API clients using Spring.
+Additionally, you must have the following properties set in your properties file:
