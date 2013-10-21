@@ -16,11 +16,11 @@
    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
 
 	<!-- Properties -->
-	<context:property-placeholder location="classpath:/test-daemon-props.properties"
+	<context:property-placeholder location="classpath:/test-moves-props.properties"
 		ignore-unresolvable="true" />
 
-	<import resource="classpath*:/daemonApplicationContext.xml" />
+	<import resource="classpath*:/movesApplicationContext.xml" />
 
-	<context:component-scan base-package="me.comocomo.nutrino" />
+	<context:component-scan base-package="com.moves.api" />
 
 </beans>

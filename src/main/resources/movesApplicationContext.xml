@@ -15,14 +15,6 @@
    http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd
    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
 
-	<import resource="classpath*:/dalApplicationContext.xml" />
-	<import resource="classpath*:/commonsApplicationContext.xml" />
-	<import resource="classpath*:/daemonApiApplicationContext.xml" />
-
-	<context:component-scan base-package="me.comocomo.nutrino" />
-
-	<!-- Properties -->
-	<context:property-placeholder location="classpath:/daemon-props.properties"
-		ignore-unresolvable="true" />
+	<context:component-scan base-package="com.moves.api" />
 
 </beans>
