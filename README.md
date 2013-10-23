@@ -5,6 +5,8 @@ Moves Java SDK
 **************
 
 This is the first version of ProtoGeo's Moves app Java SDK (www.moves-app.com).
+This API uses data from Moves but is not endorsed or certified by Moves. 
+Moves is a trademark of ProtoGeo Oy.
 
 
 Using the SDK
